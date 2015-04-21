@@ -52,3 +52,14 @@ group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
+
+#for our local server:
+group :development do
+	gem 'sqlite3'
+end
+
+#for Heroku:
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+end
